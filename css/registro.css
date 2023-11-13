@@ -1,0 +1,48 @@
+/* styles.css */
+
+body {
+    background-color: #87CEEB; /* Azul más oscuro */
+    background-image: url('https://www.decoracionmoderna.net/wp-content/uploads/2017/08/Sala-de-reuniones-moderna-y-elegante.jpg'); /* Ruta a la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.registration-container {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+.group-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Ajusta la separación entre el grupo y otros elementos */
+    max-width: 300px; /* Ajusta el ancho máximo del contenedor */
+    margin-left: auto; /* Centra el contenedor en el formulario */
+    margin-right: auto; /* Centra el contenedor en el formulario */
+}
+
+.registration-container form {
+    margin-bottom: 0;
+}
+
+.registration-btn {
+    background-color: #8B4513; /* Café para el botón de registro */
+    color: white;
+    width: 100%; /* Haz que el botón ocupe el ancho completo del contenedor */
+    margin-top: 15px; /* Ajusta la distancia desde la parte superior */
+    max-width: 200px; /* Establece el ancho máximo del botón */
+    margin-left: auto; /* Centra el botón en el contenedor */
+    margin-right: auto; /* Centra el botón en el contenedor */
+}

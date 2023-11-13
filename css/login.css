@@ -1,0 +1,55 @@
+body {
+    background-color: #155974; /* Azul más oscuro */
+    background-repeat: no-repeat;
+    background-image: url('https://www.decoracionmoderna.net/wp-content/uploads/2017/08/Sala-de-reuniones-moderna-y-elegante.jpg'); /* Ruta a la imagen de fondo */
+    color: #FFFFFF;
+    background-size: cover;
+    background-position: top;
+    font-family: 'Arial', 'sans-serif';
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    height: auto;
+    overflow: hidden;
+}
+.login-container {
+    width: auto;
+    background-color: rgb(172, 19, 19); /* Blanco para el recuadro del login */
+    background-position: center;
+    padding: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container form {
+    margin-bottom: auto;
+}
+.login-btn {
+    background-color: #8B4513; /* Café para el botón de ingresar */
+    color: rgb(194, 43, 43);
+    align-items: center;
+}
+.form-control{
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
